@@ -1,0 +1,55 @@
+1))
+public class palindrome {
+    public static void main(String[] args) {
+        int n = 44544, temp = n, r, sum = 0;
+        while (n != 0) {
+            r = n % 10;
+            sum = (sum * 10) + r;
+            n = n / 10;
+        }
+        if (temp == sum) {
+            System.out.println("Yes...");
+
+        } else {
+            System.out.println("No...");
+        }
+    }
+
+}
+
+2))
+class ReverseString {
+    public static void main(String[] args) {
+        String input = "Ashutosh";
+
+        StringBuilder input1 = new StringBuilder();
+
+        input1.append(input);
+
+        input1.reverse();
+
+        System.out.println(input1);
+    }
+}
+3))
+public class reverse_No {
+    public static void main(String[] args) {
+        int n = 123456, temp = n, r, sum = 0;
+        while (n != 0) {
+            r = n % 10;
+            sum = (sum * 10) + r;
+            n = n / 10;
+        }
+        System.out.println("Reverse No...:" + sum);
+    }
+}
+4))
+public class swapnowithouutthirdvar {
+    public static void main(String[] args) {
+        int x = 20, y = 30;
+        x = x + y;
+        y = x - y;
+        x = x - y;
+        System.out.println("x=" + x + "y=" + y);
+    }
+}

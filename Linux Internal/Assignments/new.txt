@@ -1,0 +1,2 @@
+Print this message into the file
+Print this message into STDOUT

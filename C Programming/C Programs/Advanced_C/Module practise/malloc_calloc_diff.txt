@@ -1,0 +1,54 @@
+
+
+1.
+
+malloc() is a function that creates one block of memory of a fixed size.
+calloc() is a function that assigns a specified number of blocks of memory to a single variable.
+2.
+
+malloc() only takes one argument	
+calloc() takes two arguments.
+3.
+
+malloc() is faster than calloc.	
+calloc() is slower than malloc()
+4.
+
+malloc() has high time efficiency	
+calloc() has low time efficiency
+5.
+
+malloc() is used to indicate memory allocation	
+calloc() is used to indicate contiguous memory allocation
+6.
+
+Syntax : void* malloc(size_t size);	
+Syntax : void* calloc(size_t num, size_t size);
+8.
+
+malloc() does not initialize the memory to zero	
+calloc() initializes the memory to zero
+9.
+
+malloc() does not add any extra memory overhead	
+calloc() adds some extra memory overhead
+
+10.
+
+Example:malloc:
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+ int *ptr;
+ ptr=malloc(5);
+ }
+
+Example:calloc
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+ int *ptr;
+ ptr=calloc(5,4)
+}

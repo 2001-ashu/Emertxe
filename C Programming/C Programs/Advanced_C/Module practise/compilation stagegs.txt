@@ -1,0 +1,17 @@
+Preprocessor
+Compiler
+Assembler
+Linker
+
+Firstly, the input file, i.e., hello.c, is passed to
+ the preprocessor, and the preprocessor converts the
+  source code into expanded source code. The extension
+   of the expanded source code would be hello.i.
+The expanded source code is passed to the compiler,
+ and the compiler converts this expanded source code
+  into assembly code. The extension of the assembly 
+  code would be hello.s.
+This assembly code is then sent to the assembler,
+ which converts the assembly code into object code.
+After the creation of an object code, the linker create
+s the executable file. The loader will then load the executable file for the execution.
